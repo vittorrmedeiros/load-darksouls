@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Optimus Princeps';
+    src: url(fonts/OptimusPrinceps.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {   
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px 10em;
+}
+
+.box {
+    background-color: #0e0e0e;
+    border: solid 3px #766a46a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+    bottom: 1em;
+    left: 10em;
+    width: 60em;
+    height: 30em;
+}
+
+ .box__content {
+    background-color: #000000;
+    border: solid 3px #94895b;
+    height: 25em;
+    width: 55vw;
+    padding: 0 30px;
+}
+
+.content__header {
+    border-bottom: solid 3px #80734ca8;
+}
+
+.content__main  {
+    padding: 1em 10px 0px 145px;
+}
+
+
+.content__main p {
+    color: rgb(187, 187, 187);
+    border-bottom: solid 1px #80734ca8;
+    font-size: large;
+}
+
+h3 {
+    color: rgba(168, 158, 107, 0.729);
+    font-size: x-large;
+    position: relative;
+    bottom: 30px;
+    left: 6em;
+}
+
+.gs {
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+.load__link {
+    text-decoration: none;
+    cursor: not-allowed;
+}
+
+.load__ds {
+    color: #fff;
+    font-family: 'Optimus Princeps', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: 128px;
+    text-align: center;
+}
